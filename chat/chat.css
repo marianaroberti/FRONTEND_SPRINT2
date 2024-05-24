@@ -13,3 +13,19 @@ body, html {
     background-image: url('./assets/extra-grande-html.svg'); 
     background-size: cover;
   }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #0260A8; 
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+
+  .logo {
+    font-size: 2rem; 
+    color: white;
+    font-weight: 700; 
+  }
