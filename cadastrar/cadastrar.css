@@ -1,0 +1,696 @@
+@media(min-width:1440px){
+
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #023C66;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'SeoulNamsan CB', sans-serif;
+    }
+
+    .registration-container {
+        width: 1440px;
+        height: 1200px;
+        position:absolute ;
+    }
+
+    .header, .footer {
+        position: absolute;
+        width: 100%;
+        background-color: #589ACA;
+        border-radius: 10px;
+        border: 2px solid #000;
+    }
+
+    .header {
+        height: 141px;
+        top: 0;
+        background-image: url('./assets/cabecalho.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -40px; 
+        width: 100%;
+        height: 147px;
+        background-image: url('./assets/rodape.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form-title {
+        color: #FFFFFF;
+        font-size: 70px;
+        position: absolute;
+        top: 160px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .registration-form {
+        position: absolute;
+        top: 294px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 540px;
+    }
+
+    .input-container {
+        position: relative;
+        margin-bottom: 26px;
+    }
+
+    .input-container input {
+        width: 100%;
+        height: 70px;
+        padding-left: 20px;
+        font-size: 30px;
+        line-height: 70px;
+        border-radius: 10px;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    .submit-button {
+        position: absolute;
+        width: 294px;
+        height: 76px;
+        bottom: -75px; 
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #589ACA;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: 2px solid #000;
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s;
+        text-decoration: #000;
+        
+    }
+    .submit-button a {
+        text-decoration: none;
+        color: #000;
+        
+    }
+        
+        
+    header {
+        display: flex; 
+        position: relative; 
+        background-color: #589ACA;
+        padding: 30px;
+        justify-content: end;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+
+    
+}  
+
+@media(min-width:1200px) and (max-width:1439px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #023C66;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'SeoulNamsan CB', sans-serif;
+    }
+
+    .registration-container {
+        width: 1440px;
+        height: 1200px;
+        position:absolute ;
+    }
+
+    .header, .footer {
+        position: absolute;
+        width: 100%;
+        background-color: #589ACA;
+        border-radius: 10px;
+        border: 2px solid #000;
+    }
+
+    .header {
+        height: 141px;
+        top: 0;
+        background-image: url('./assets/cabecalho.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -40px; 
+        width: 100%;
+        height: 147px;
+        background-image: url('./assets/rodape.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form-title {
+        color: #FFFFFF;
+        font-size: 60px;
+        position: absolute;
+        top: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .registration-form {
+        position: absolute;
+        top: 260px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 480px;
+    }
+
+    .input-container {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .input-container input {
+        width: 100%;
+        height: 70px;
+        padding-left: 20px;
+        font-size: 30px;
+        line-height: 70px;
+        border-radius: 10px;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    .submit-button {
+        position: absolute;
+        width: 250px;
+        height: 65px;
+        bottom: -60px; 
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #589ACA;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: 2px solid #000;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s;
+        text-decoration: #000;
+        
+    }
+    .submit-button a {
+        text-decoration: none;
+        color: #000;
+        
+    }
+        
+        
+    header {
+        display: flex; 
+        position: relative; 
+        background-color: #589ACA;
+        padding: 30px;
+        justify-content: end;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+}
+@media (min-width:992px ) and (max-width: 1199px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #023C66;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'SeoulNamsan CB', sans-serif;
+    }
+
+    .registration-container {
+        width: 1440px;
+        height: 1200px;
+        position:absolute ;
+    }
+
+    .header, .footer {
+        position: absolute;
+        width: 100%;
+        background-color: #589ACA;
+        border-radius: 10px;
+        border: 2px solid #000;
+    }
+
+    .header {
+        height: 141px;
+        top: 0;
+        background-image: url('./assets/cabecalho.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -40px; 
+        width: 100%;
+        height: 147px;
+        background-image: url('./assets/rodape.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form-title {
+        color: #FFFFFF;
+        font-size: 50px;
+        position: absolute;
+        top: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .registration-form {
+        position: absolute;
+        top: 240px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 420px;
+    }
+
+    .input-container {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .input-container input {
+        width: 100%;
+        height: 70px;
+        padding-left: 20px;
+        font-size: 20px;
+        line-height: 70px;
+        border-radius: 10px;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    .submit-button {
+        position: absolute;
+        width: 220px;
+        height: 60px;
+        bottom: -50px; 
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #589ACA;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: 2px solid #000;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s;
+        text-decoration: #000;
+        
+    }
+    .submit-button a {
+        text-decoration: none;
+        color: #000;
+        
+    }
+        
+        
+    header {
+        display: flex; 
+        position: relative; 
+        background-color: #589ACA;
+        padding: 30px;
+        justify-content: end;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #023C66;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'SeoulNamsan CB', sans-serif;
+    }
+
+    .registration-container {
+        width: 1440px;
+        height: 1200px;
+        position:absolute ;
+    }
+
+    .header, .footer {
+        position: absolute;
+        width: 100%;
+        background-color: #589ACA;
+        border-radius: 10px;
+        border: 2px solid #000;
+    }
+
+    .header {
+        height: 141px;
+        top: 0;
+        background-image: url('./assets/cabecalho.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -40px; 
+        width: 100%;
+        height: 147px;
+        background-image: url('./assets/rodape.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form-title {
+        color: #FFFFFF;
+        font-size: 40px;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .registration-form {
+        position: absolute;
+        top: 220px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 360px;
+    }
+
+    .input-container {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .input-container input {
+        width: 100%;
+        height: 70px;
+        padding-left: 20px;
+        font-size: 18px;
+        line-height: 70px;
+        border-radius: 10px;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    .submit-button {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        bottom: -40px; 
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #589ACA;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: 2px solid #000;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s;
+        text-decoration: #000;
+        
+    }
+    .submit-button a {
+        text-decoration: none;
+        color: #000;
+        
+    }
+        
+        
+    header {
+        display: flex; 
+        position: relative; 
+        background-color: #589ACA;
+        padding: 30px;
+        justify-content: end;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #023C66;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'SeoulNamsan CB', sans-serif;
+    }
+
+    .registration-container {
+        width: 1440px;
+        height: 1200px;
+        position:absolute ;
+    }
+
+    .header, .footer {
+        position: absolute;
+        width: 100%;
+        background-color: #589ACA;
+        border-radius: 10px;
+        border: 2px solid #000;
+    }
+
+    .header {
+        height: 141px;
+        top: 0;
+        background-image: url('./assets/cabecalho.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -40px; 
+        width: 100%;
+        height: 147px;
+        background-image: url('./assets/rodape.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form-title {
+        color: #FFFFFF;
+        font-size: 30px;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .registration-form {
+        position: absolute;
+        top: 180px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 280px;
+    }
+
+    .input-container {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .input-container input {
+        width: 100%;
+        height: 70px;
+        padding-left: 20px;
+        font-size: 16px;
+        line-height: 70px;
+        border-radius: 10px;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    .submit-button {
+        position: absolute;
+        width: 180px;
+        height: 45px;
+        bottom: -30px; 
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #589ACA;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: 2px solid #000;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s;
+        text-decoration: #000;
+        
+    }
+    .submit-button a {
+        text-decoration: none;
+        color: #000;
+        
+    }
+        
+        
+    header {
+        display: flex; 
+        position: relative; 
+        background-color: #589ACA;
+        padding: 30px;
+        justify-content: end;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+}
+
+@media (max-width: 576px){
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #023C66;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'SeoulNamsan CB', sans-serif;
+    }
+
+    .registration-container {
+        width: 1440px;
+        height: 1200px;
+        position:absolute ;
+    }
+
+    .header, .footer {
+        position: absolute;
+        width: 100%;
+        background-color: #589ACA;
+        border-radius: 10px;
+        border: 2px solid #000;
+    }
+
+    .header {
+        height: 141px;
+        top: 0;
+        background-image: url('./assets/cabecalho.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: -40px; 
+        width: 100%;
+        height: 147px;
+        background-image: url('./assets/rodape.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form-title {
+        color: #FFFFFF;
+        font-size: 20px;
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .registration-form {
+        position: absolute;
+        top: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 240px;
+    }
+
+    .input-container {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .input-container input {
+        width: 100%;
+        height: 70px;
+        padding-left: 20px;
+        font-size: 14px;
+        line-height: 70px;
+        border-radius: 10px;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    .submit-button {
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        bottom: -20px; 
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #589ACA;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: 2px solid #000;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s;
+        text-decoration: #000;
+        
+    }
+    .submit-button a {
+        text-decoration: none;
+        color: #000;
+        
+    }
+        
+        
+    header {
+        display: flex; 
+        position: relative; 
+        background-color: #589ACA;
+        padding: 30px;
+        justify-content: end;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+}
