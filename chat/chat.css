@@ -89,3 +89,7 @@ body, html {
     width:80% ;
     height:40px ;
   } 
+
+  .voltar {
+    display: flex;
+  }
