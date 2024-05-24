@@ -1,4 +1,5 @@
 body, html {
+  
     margin: 0;
     padding: 0;
     height: 100%;
@@ -65,4 +66,358 @@ body, html {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+  }
+  @media(min-width:1200px) and (max-width:1439px){
+    body, html {
+  
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'SeoulNamsan CB', Arial, sans-serif;
+      background-color: #023c66;
+      color: white;
+    }
+    
+    .app-container {
+      display: flex;
+      flex-direction: column;
+      height: 1200px;
+    }
+    
+    .app-header, .app-footer {
+      background: #589acaff;
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px solid #000;
+    }
+     
+    .app-logo {
+      border-radius: 10px;
+    }
+    
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px 20px;
+      background: #023c66;
+    }
+    
+    .section-title {
+      font-size: 70px;
+      line-height: 70px;
+      margin-bottom: 30px;
+    }
+    .text-container {
+      background: #d9d9d9;
+      width: 800px;
+      height: auto;
+      padding: 30px;
+      border-radius: 10px;
+      color: black;
+      font-size: 25px;
+      line-height: 1.4;
+      text-align: justify;
+    }
+    
+    .text-container p {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    
+    .back-button {
+      background-color: white;
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+  @media (min-width:992px ) and (max-width: 1199px){
+    body, html {
+  
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'SeoulNamsan CB', Arial, sans-serif;
+      background-color: #023c66;
+      color: white;
+    }
+    
+    .app-container {
+      display: flex;
+      flex-direction: column;
+      height: 1200px;
+    }
+    
+    .app-header, .app-footer {
+      background: #589acaff;
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px solid #000;
+    }
+     
+    .app-logo {
+      border-radius: 10px;
+    }
+    
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px 20px;
+      background: #023c66;
+    }
+    
+    .section-title {
+      font-size: 70px;
+      line-height: 70px;
+      margin-bottom: 30px;
+    }
+    .text-container {
+      background: #d9d9d9;
+      width: 800px;
+      height: auto;
+      padding: 30px;
+      border-radius: 10px;
+      color: black;
+      font-size: 25px;
+      line-height: 1.4;
+      text-align: justify;
+    }
+    
+    .text-container p {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    
+    .back-button {
+      background-color: white;
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    body, html {
+  
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'SeoulNamsan CB', Arial, sans-serif;
+      background-color: #023c66;
+      color: white;
+    }
+    
+    .app-container {
+      display: flex;
+      flex-direction: column;
+      height: 1200px;
+    }
+    
+    .app-header, .app-footer {
+      background: #589acaff;
+      padding: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px solid #000;
+    }
+     
+    .app-logo {
+      border-radius: 10px;
+    }
+    
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 15px 15px;
+      background: #023c66;
+    }
+    
+    .section-title {
+      font-size: 50px;
+      line-height: 50px;
+      margin-bottom: 30px;
+    }
+    .text-container {
+      background: #d9d9d9;
+      width: 600px;
+      height: auto;
+      padding: 30px;
+      border-radius: 10px;
+      color: black;
+      font-size: 20px;
+      line-height: 1.4;
+      text-align: justify;
+    }
+    
+    .text-container p {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    
+    .back-button {
+      background-color: white;
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }@media (min-width: 576px) and (max-width: 767px){
+    body, html {
+  
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'SeoulNamsan CB', Arial, sans-serif;
+      background-color: #023c66;
+      color: white;
+    }
+    
+    .app-container {
+      display: flex;
+      flex-direction: column;
+      height: 1200px;
+    }
+    
+    .app-header, .app-footer {
+      background: #589acaff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px solid #000;
+    }
+     
+    .app-logo {
+      border-radius: 10px;
+    }
+    
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 10px 10px;
+      background: #023c66;
+    }
+    
+    .section-title {
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 30px;
+    }
+    .text-container {
+      background: #d9d9d9;
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      border-radius: 10px;
+      color: black;
+      font-size: 18px;
+      line-height: 1.4;
+      text-align: justify;
+    }
+    
+    .text-container p {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    
+    .back-button {
+      background-color: white;
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+  @media (max-width: 576px){
+    body, html {
+  
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'SeoulNamsan CB', Arial, sans-serif;
+      background-color: #023c66;
+      color: white;
+    }
+    
+    .app-container {
+      display: flex;
+      flex-direction: column;
+      height: 1200px;
+    }
+    
+    .app-header, .app-footer {
+      background: #589acaff;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+      border: 1px solid #000;
+    }
+     
+    .app-logo {
+      border-radius: 10px;
+    }
+    
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 5px 5px;
+      background: #023c66;
+    }
+    
+    .section-title {
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+    .text-container {
+      background: #d9d9d9;
+      width: 100%;
+      height: auto;
+      padding: 15px;
+      border-radius: 10px;
+      color: black;
+      font-size: 16px;
+      line-height: 1.4;
+      text-align: justify;
+    }
+    
+    .text-container p {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    
+    .back-button {
+      background-color: white;
+      padding: 10px 20px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   }
