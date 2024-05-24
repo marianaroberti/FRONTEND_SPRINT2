@@ -93,3 +93,7 @@ body, html {
   .voltar {
     display: flex;
   }
+
+  .container {
+    display: flex;
+  }
